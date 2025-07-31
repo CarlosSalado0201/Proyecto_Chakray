@@ -1,0 +1,534 @@
+{
+	"info": {
+		"_postman_id": "3c4f6a12-400e-48f5-8c65-1c866ebef9f7",
+		"name": "Chakray",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "46757292",
+		"_collection_link": "https://carlosalbertosaladochavez.postman.co/workspace/Carlos-Alberto-Salado-Chavez's-~def44145-6084-4a8a-8f7e-00afcc368bb9/collection/46757292-3c4f6a12-400e-48f5-8c65-1c866ebef9f7?action=share&source=collection_link&creator=46757292"
+	},
+	"item": [
+		{
+			"name": "Mostar usuarios",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:8080/UsuariosWb/mostrar"
+			},
+			"response": [
+				{
+					"name": "Mostar usuarios",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": "http://localhost:8080/UsuariosWb/mostrar"
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 31 Jul 2025 08:46:45 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"id\": \"0e1c0220-155c-47f3-bd2b-d1f4d5843972\",\n        \"correoE\": \"admin@example.com\",\n        \"nombre\": \"Admin\",\n        \"celular\": \"0000000000\",\n        \"tax_id\": \"ADMIN001\",\n        \"crear_id\": null,\n        \"crear_fecha\": \"31-07-2025 11:45\",\n        \"direccion\": [\n            {\n                \"id\": 0,\n                \"nombre\": null,\n                \"calle\": null,\n                \"codigoXpais\": null\n            }\n        ]\n    },\n    {\n        \"id\": \"a2700606-3747-4d4d-8ef2-6791f496ed8e\",\n        \"correoE\": \"mario@mail.com\",\n        \"nombre\": \"Mario Lopez\",\n        \"celular\": \"5545678901\",\n        \"tax_id\": \"MALO930303WWW\",\n        \"crear_id\": null,\n        \"crear_fecha\": \"31-07-2025 11:46\",\n        \"direccion\": [\n            {\n                \"id\": 0,\n                \"nombre\": null,\n                \"calle\": \"Insurgentes\",\n                \"codigoXpais\": null\n            }\n        ]\n    },\n    {\n        \"id\": \"c89803cf-f039-4d59-80ba-2887c9aa3592\",\n        \"correoE\": \"sofia@mail.com\",\n        \"nombre\": \"Sofia Gonzalez\",\n        \"celular\": \"5512345678\",\n        \"tax_id\": \"SOGO900101XXX\",\n        \"crear_id\": null,\n        \"crear_fecha\": \"31-07-2025 11:46\",\n        \"direccion\": [\n            {\n                \"id\": 0,\n                \"nombre\": null,\n                \"calle\": \"Av. Reforma\",\n                \"codigoXpais\": null\n            }\n        ]\n    },\n    {\n        \"id\": \"c07a2fd8-25c7-4f68-a14f-ecb7141e2750\",\n        \"correoE\": \"carlos@mail.com\",\n        \"nombre\": \"Carlos Ramirez\",\n        \"celular\": \"5523456789\",\n        \"tax_id\": \"CARA910101YYY\",\n        \"crear_id\": null,\n        \"crear_fecha\": \"31-07-2025 11:46\",\n        \"direccion\": [\n            {\n                \"id\": 0,\n                \"nombre\": null,\n                \"calle\": \"Calle 20\",\n                \"codigoXpais\": null\n            }\n        ]\n    },\n    {\n        \"id\": \"11b1b142-1181-4cfa-a195-ca6c9a7feedd\",\n        \"correoE\": \"laura@mail.com\",\n        \"nombre\": \"Laura Fernandez\",\n        \"celular\": \"5534567890\",\n        \"tax_id\": \"LAFE920202ZZZ\",\n        \"crear_id\": null,\n        \"crear_fecha\": \"31-07-2025 11:46\",\n        \"direccion\": [\n            {\n                \"id\": 0,\n                \"nombre\": null,\n                \"calle\": \"Calle Palma\",\n                \"codigoXpais\": null\n            }\n        ]\n    }\n]"
+				}
+			]
+		},
+		{
+			"name": "Mostar usuarios despues de eliminar",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:8080/UsuariosWb/mostrar"
+			},
+			"response": [
+				{
+					"name": "Mostar usuarios despues de eliminar",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": "http://localhost:8080/UsuariosWb/mostrar"
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 31 Jul 2025 08:47:08 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"id\": \"a2700606-3747-4d4d-8ef2-6791f496ed8e\",\n        \"correoE\": \"mario@mail.com\",\n        \"nombre\": \"Mario Lopez\",\n        \"celular\": \"5545678901\",\n        \"tax_id\": \"MALO930303WWW\",\n        \"crear_id\": null,\n        \"crear_fecha\": \"31-07-2025 11:46\",\n        \"direccion\": [\n            {\n                \"id\": 0,\n                \"nombre\": null,\n                \"calle\": \"Insurgentes\",\n                \"codigoXpais\": null\n            }\n        ]\n    },\n    {\n        \"id\": \"c89803cf-f039-4d59-80ba-2887c9aa3592\",\n        \"correoE\": \"sofia@mail.com\",\n        \"nombre\": \"Sofia Gonzalez\",\n        \"celular\": \"5512345678\",\n        \"tax_id\": \"SOGO900101XXX\",\n        \"crear_id\": null,\n        \"crear_fecha\": \"31-07-2025 11:46\",\n        \"direccion\": [\n            {\n                \"id\": 0,\n                \"nombre\": null,\n                \"calle\": \"Av. Reforma\",\n                \"codigoXpais\": null\n            }\n        ]\n    },\n    {\n        \"id\": \"c07a2fd8-25c7-4f68-a14f-ecb7141e2750\",\n        \"correoE\": \"carlos@mail.com\",\n        \"nombre\": \"Carlos Ramirez\",\n        \"celular\": \"5523456789\",\n        \"tax_id\": \"CARA910101YYY\",\n        \"crear_id\": null,\n        \"crear_fecha\": \"31-07-2025 11:46\",\n        \"direccion\": [\n            {\n                \"id\": 0,\n                \"nombre\": null,\n                \"calle\": \"Calle 20\",\n                \"codigoXpais\": null\n            }\n        ]\n    },\n    {\n        \"id\": \"11b1b142-1181-4cfa-a195-ca6c9a7feedd\",\n        \"correoE\": \"laura@mail.com\",\n        \"nombre\": \"Laura Fernandez\",\n        \"celular\": \"5534567890\",\n        \"tax_id\": \"LAFE920202ZZZ\",\n        \"crear_id\": null,\n        \"crear_fecha\": \"31-07-2025 11:46\",\n        \"direccion\": [\n            {\n                \"id\": 0,\n                \"nombre\": null,\n                \"calle\": \"Calle Palma\",\n                \"codigoXpais\": null\n            }\n        ]\n    }\n]"
+				}
+			]
+		},
+		{
+			"name": "Mostar usuarios despues de editar",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:8080/UsuariosWb/mostrar"
+			},
+			"response": [
+				{
+					"name": "Mostar usuarios despues de editar",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": "http://localhost:8080/UsuariosWb/mostrar"
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 31 Jul 2025 08:47:32 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"id\": \"a2700606-3747-4d4d-8ef2-6791f496ed8e\",\n        \"correoE\": \"mario@mail.com\",\n        \"nombre\": \"Juan Actualizado\",\n        \"celular\": \"5559876543\",\n        \"tax_id\": \"MALO930303WWW\",\n        \"crear_id\": null,\n        \"crear_fecha\": \"31-07-2025 11:46\",\n        \"direccion\": [\n            {\n                \"id\": 0,\n                \"nombre\": null,\n                \"calle\": \"Insurgentes\",\n                \"codigoXpais\": null\n            }\n        ]\n    },\n    {\n        \"id\": \"c89803cf-f039-4d59-80ba-2887c9aa3592\",\n        \"correoE\": \"sofia@mail.com\",\n        \"nombre\": \"Sofia Gonzalez\",\n        \"celular\": \"5512345678\",\n        \"tax_id\": \"SOGO900101XXX\",\n        \"crear_id\": null,\n        \"crear_fecha\": \"31-07-2025 11:46\",\n        \"direccion\": [\n            {\n                \"id\": 0,\n                \"nombre\": null,\n                \"calle\": \"Av. Reforma\",\n                \"codigoXpais\": null\n            }\n        ]\n    },\n    {\n        \"id\": \"c07a2fd8-25c7-4f68-a14f-ecb7141e2750\",\n        \"correoE\": \"carlos@mail.com\",\n        \"nombre\": \"Carlos Ramirez\",\n        \"celular\": \"5523456789\",\n        \"tax_id\": \"CARA910101YYY\",\n        \"crear_id\": null,\n        \"crear_fecha\": \"31-07-2025 11:46\",\n        \"direccion\": [\n            {\n                \"id\": 0,\n                \"nombre\": null,\n                \"calle\": \"Calle 20\",\n                \"codigoXpais\": null\n            }\n        ]\n    },\n    {\n        \"id\": \"11b1b142-1181-4cfa-a195-ca6c9a7feedd\",\n        \"correoE\": \"laura@mail.com\",\n        \"nombre\": \"Laura Fernandez\",\n        \"celular\": \"5534567890\",\n        \"tax_id\": \"LAFE920202ZZZ\",\n        \"crear_id\": null,\n        \"crear_fecha\": \"31-07-2025 11:46\",\n        \"direccion\": [\n            {\n                \"id\": 0,\n                \"nombre\": null,\n                \"calle\": \"Calle Palma\",\n                \"codigoXpais\": null\n            }\n        ]\n    }\n]"
+				}
+			]
+		},
+		{
+			"name": "Añadir Usuario",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"correoE\": \"laura@mail.com\",\r\n  \"nombre\": \"Laura Fernandez\",\r\n  \"celular\": \"5534567890\",\r\n  \"tax_id\": \"LAFE920202ZZZ\",\r\n  \"contrasenna\": \"claveLaura789\",\r\n  \"direccion\": [\r\n    {\r\n      \"calle\": \"Calle Palma\",\r\n      \"ciudad\": \"Monterrey\"\r\n    }\r\n  ]\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8080/UsuariosWb/annadirUsuario"
+			},
+			"response": [
+				{
+					"name": "Añadir Usuario",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"correoE\": \"laura@mail.com\",\r\n  \"nombre\": \"Laura Fernandez\",\r\n  \"celular\": \"5534567890\",\r\n  \"tax_id\": \"LAFE920202ZZZ\",\r\n  \"contrasenna\": \"claveLaura789\",\r\n  \"direccion\": [\r\n    {\r\n      \"calle\": \"Calle Palma\",\r\n      \"ciudad\": \"Monterrey\"\r\n    }\r\n  ]\r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://localhost:8080/UsuariosWb/annadirUsuario"
+					},
+					"status": "Created",
+					"code": 201,
+					"_postman_previewlanguage": "plain",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "text/plain;charset=UTF-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "22"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 31 Jul 2025 08:46:31 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "Agregado correctamente"
+				}
+			]
+		},
+		{
+			"name": "Eliminar",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": "http://localhost:8080/UsuariosWb/eliminar/0e1c0220-155c-47f3-bd2b-d1f4d5843972"
+			},
+			"response": [
+				{
+					"name": "Eliminar",
+					"originalRequest": {
+						"method": "DELETE",
+						"header": [],
+						"url": "http://localhost:8080/UsuariosWb/eliminar/0e1c0220-155c-47f3-bd2b-d1f4d5843972"
+					},
+					"status": "Created",
+					"code": 201,
+					"_postman_previewlanguage": "plain",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "text/plain;charset=UTF-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "23"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 31 Jul 2025 08:47:02 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "Eliminado correctamente"
+				}
+			]
+		},
+		{
+			"name": "Editar",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"nombre\": \"Juan Actualizado\",\r\n  \"celular\": \"5559876543\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8080/UsuariosWb/editar/a2700606-3747-4d4d-8ef2-6791f496ed8e"
+			},
+			"response": [
+				{
+					"name": "Editar",
+					"originalRequest": {
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"nombre\": \"Juan Actualizado\",\r\n  \"celular\": \"5559876543\"\r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://localhost:8080/UsuariosWb/editar/a2700606-3747-4d4d-8ef2-6791f496ed8e"
+					},
+					"status": "Created",
+					"code": 201,
+					"_postman_previewlanguage": "plain",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "text/plain;charset=UTF-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "19"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 31 Jul 2025 08:47:28 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "Usuario actualizado"
+				}
+			]
+		},
+		{
+			"name": "Iniciar Sesion",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"tax_id\": \"MALO930303WWW\",\r\n  \"contrasenna\": \"mario123\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8080/UsuariosWb/iniciarSesion"
+			},
+			"response": [
+				{
+					"name": "Iniciar Sesion",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"tax_id\": \"MALO930303WWW\",\r\n  \"contrasenna\": \"mario123\"\r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://localhost:8080/UsuariosWb/iniciarSesion"
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 31 Jul 2025 08:47:36 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"correoE\": \"mario@mail.com\",\n    \"nombre\": \"Juan Actualizado\",\n    \"tex_id\": \"MALO930303WWW\"\n}"
+				}
+			]
+		},
+		{
+			"name": "Ordenar",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/UsuariosWb?ordenarPor=nombre",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"UsuariosWb"
+					],
+					"query": [
+						{
+							"key": "ordenarPor",
+							"value": "nombre"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Ordenar",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/UsuariosWb?ordenarPor=nombre",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"UsuariosWb"
+							],
+							"query": [
+								{
+									"key": "ordenarPor",
+									"value": "nombre"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 31 Jul 2025 08:47:50 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"id\": \"c07a2fd8-25c7-4f68-a14f-ecb7141e2750\",\n        \"correoE\": \"carlos@mail.com\",\n        \"nombre\": \"Carlos Ramirez\",\n        \"celular\": \"5523456789\",\n        \"tax_id\": \"CARA910101YYY\",\n        \"crear_id\": null,\n        \"crear_fecha\": \"31-07-2025 11:46\",\n        \"direccion\": [\n            {\n                \"id\": 0,\n                \"nombre\": null,\n                \"calle\": \"Calle 20\",\n                \"codigoXpais\": null\n            }\n        ]\n    },\n    {\n        \"id\": \"a2700606-3747-4d4d-8ef2-6791f496ed8e\",\n        \"correoE\": \"mario@mail.com\",\n        \"nombre\": \"Juan Actualizado\",\n        \"celular\": \"5559876543\",\n        \"tax_id\": \"MALO930303WWW\",\n        \"crear_id\": null,\n        \"crear_fecha\": \"31-07-2025 11:46\",\n        \"direccion\": [\n            {\n                \"id\": 0,\n                \"nombre\": null,\n                \"calle\": \"Insurgentes\",\n                \"codigoXpais\": null\n            }\n        ]\n    },\n    {\n        \"id\": \"11b1b142-1181-4cfa-a195-ca6c9a7feedd\",\n        \"correoE\": \"laura@mail.com\",\n        \"nombre\": \"Laura Fernandez\",\n        \"celular\": \"5534567890\",\n        \"tax_id\": \"LAFE920202ZZZ\",\n        \"crear_id\": null,\n        \"crear_fecha\": \"31-07-2025 11:46\",\n        \"direccion\": [\n            {\n                \"id\": 0,\n                \"nombre\": null,\n                \"calle\": \"Calle Palma\",\n                \"codigoXpais\": null\n            }\n        ]\n    },\n    {\n        \"id\": \"c89803cf-f039-4d59-80ba-2887c9aa3592\",\n        \"correoE\": \"sofia@mail.com\",\n        \"nombre\": \"Sofia Gonzalez\",\n        \"celular\": \"5512345678\",\n        \"tax_id\": \"SOGO900101XXX\",\n        \"crear_id\": null,\n        \"crear_fecha\": \"31-07-2025 11:46\",\n        \"direccion\": [\n            {\n                \"id\": 0,\n                \"nombre\": null,\n                \"calle\": \"Av. Reforma\",\n                \"codigoXpais\": null\n            }\n        ]\n    }\n]"
+				}
+			]
+		},
+		{
+			"name": "Filto",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/UsuariosWb?filtro=nombre+co+Juan",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"UsuariosWb"
+					],
+					"query": [
+						{
+							"key": "filtro",
+							"value": "nombre+co+Juan"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Filto",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/UsuariosWb?filtro=nombre+co+Juan",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"UsuariosWb"
+							],
+							"query": [
+								{
+									"key": "filtro",
+									"value": "nombre+co+Juan"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 31 Jul 2025 08:47:45 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"id\": \"a2700606-3747-4d4d-8ef2-6791f496ed8e\",\n        \"correoE\": \"mario@mail.com\",\n        \"nombre\": \"Juan Actualizado\",\n        \"celular\": \"5559876543\",\n        \"tax_id\": \"MALO930303WWW\",\n        \"crear_id\": null,\n        \"crear_fecha\": \"31-07-2025 11:46\",\n        \"direccion\": [\n            {\n                \"id\": 0,\n                \"nombre\": null,\n                \"calle\": \"Insurgentes\",\n                \"codigoXpais\": null\n            }\n        ]\n    }\n]"
+				}
+			]
+		}
+	]
+}
